@@ -45,9 +45,9 @@ while(emojis.length) {
     }
 }
 
-fs.writeFileSync(path.join(__dirname, '../key.json'), JSON.stringify(keyDict), 'utf8');
-fs.writeFileSync(path.join(__dirname, '../emoji.json'), JSON.stringify(emojiDict), 'utf8');
-fs.writeFileSync(path.join(__dirname, '../all.json'), JSON.stringify(dict), 'utf8');
+fs.writeFileSync(path.join(__dirname, 'tempData/key.json'), JSON.stringify(keyDict), 'utf8');
+fs.writeFileSync(path.join(__dirname, 'tempData/emoji.json'), JSON.stringify(emojiDict), 'utf8');
+fs.writeFileSync(path.join(__dirname, 'tempData/all.json'), JSON.stringify(dict), 'utf8');
 
 //console.log(inspect(dict));
 //console.log(inspect(keyDict));
