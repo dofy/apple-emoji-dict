@@ -1,0 +1,15 @@
+{
+    "name": "emoji-plist-tools",
+    "version": "1.0.0",
+    "description": "Emoji plist to json Tool",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [ "emoji", "tools" ],
+    "author": "Seven Yu",
+    "license": "ISC",
+    "dependencies": {
+        "xml-parser": "^1.2.1"
+    }
+}

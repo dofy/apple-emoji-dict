@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="description" content="dofy.net &amp; phpz.org" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+    <meta charset="UTF-8" />
+    <title>Apple Emoji</title>
+    <script src="script/jquery-2.1.4.min.js"></script>
+    <script src="script/main.js"></script>
+    <style>
+        body, input {
+            color: #666;
+            text-align: center;
+            font: 1.3em "courier new";
+            outline: none;
+            border: none;
+        }
+        a {
+            color: #ccc;
+        }
+        ul, li {
+            margin: 0;
+            padding: 5px 0;
+            list-style: none;
+        }
+        #search {
+            display: none;
+        }
+        .copyright {
+            margin: 30px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <p>
+        You can load the list by 
+        <a href="javascript:void(Emoji.load('key'));">Key</a>
+        or
+        <a href="javascript:void(Emoji.load('emoji'));">Emoji</a>
+        .
+    </p>
+    <p>
+        <input id="search" size="11" placeholder="Search..." />
+    </p>
+    <ul id="output">
+        <li>
+            <img alt="logo" src="images/logo.png" width="128" />
+        </li>
+    </ul>
+    <p class="copyright">
+        copyright &copy; 2015 dofy.net &amp; phpz.org
+    </p>
+</body>
+</html>
