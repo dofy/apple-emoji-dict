@@ -19,6 +19,7 @@ OS X 10.11.1 以后的系统该 emoji.plist 文件已不存在，故后期的新
 - [知乎：iOS 和 Mac 上能用拼音打出的 Emoji 有哪些？](https://www.zhihu.com/question/26786869/answer/64265262)
 - [Get Emoji](http://getemoji.com/)
 - [Emojipedia](http://emojipedia.org/)
+- [dofy/EmojiDB](https://github.com/dofy/emojidb)
 
 ## 截图
 
